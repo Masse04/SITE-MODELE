@@ -1,0 +1,97 @@
+.container
+nav
+{
+    display: flex;
+    border: solid black 3px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+.navbar
+{
+    display: flex;
+}
+li
+{
+    list-style-type: none;
+}
+.deroulant
+{
+    display: none;
+}
+h3
+{
+    color: rgb(2, 148, 104);
+}
+.making
+{
+    border: solid black 3px;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: normal;
+    
+}
+.para
+{
+    display: flex;
+    width: 75%;
+    border: solid black 3px;
+    margin: auto;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    text-align: start;
+    padding: 10px 25px;
+    font-size: large;
+}
+#also
+{
+    margin-left: 40px;    
+}
+.choice li
+{
+    display: none;
+}
+section
+{
+    border: solid black 3px;
+    margin: auto;
+}
+.sect1
+{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-auto-rows: 300px;
+    background-color: black;
+    grid-gap: 10px;
+    grid-template-areas: "a b c"
+                        "d e e";
+                        
+}
+.sect1 div:nth-child(1)
+{
+    grid-area: a;
+    background-color: white;
+}
+.sect1 div:nth-child(2)
+{
+    grid-area: b;
+    background-color: blanchedalmond;
+}
+.sect1 div:nth-child(3)
+{
+    grid-area: c;
+    background-color: white;
+}
+.sect1 div:nth-child(4)
+{
+    grid-area: d;
+    background-color: white;
+}
+.sect1 div:nth-child(5)
+{
+    grid-area: e;
+    background-color: white;
+}

@@ -5,19 +5,20 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modele.css">
     <title>SITE MODELE</title>
 </head>
 <body>
     <div class="container">
         <nav>
             <header>
-                <h1><img src="image.png" alt=""><span>Docplanner</span> Group</h1>
+                <h1><img src="image.png" style="height: 20px; ;" alt=""><span>Docplanner</span> Group</h1>
             </header>
-            <ul>
+            <ul class="navbar" >
                 <li>About us</li>
                 <li>Career</li>
                 <li>Departements
-                    <ul>
+                    <ul class="deroulant">
                         <li>Marketing & PR</li>
                         <li>Customer Success & Sales</li>
                         <li>IT, Product, Data</li>
@@ -30,121 +31,115 @@
 
         <main>
             <div>
-                <div>
+                <div class="making">
                     <img src="image.png" alt="">
                     <h3>Making the healthcare experience more human</h3>
                 </div>
-                <div>
+                <div class="para">
                     <div>
                         <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
                     </div>
-                    <div>
+                    <div  id="also">
                         <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
                     </div>
                 </div>
             </div>
             <!--debut div couleur,paragraphe et logo-->
-            <div>
+            <section class="sect1">
                 <!--debut div couleur-->
-                <div>
                     <!--debut div vert/bleu-->
-                    <div>
-                        <h5>For patients</h5>
-                        <p>Find a doctor, book a visit and solve any health-related doubt</p>
-                        <p>Choose country
-                            <ul>
-                                <li>Choose country</li>
-                                <li>Argentina</li>
-                                <li>Brazil</li>
-                                <li>Chile</li>
-                                <li>Colombia</li>
-                                <li>Czech</li>
-                                <li>Germany</li>
-                                <li>Italy</li>
-                                <li>Mexico</li>
-                                <li>Peru</li>
-                                <li>Poland</li>
-                                <li>Portugal</li>
-                                <li>Spain</li>
-                                <li>Turkey</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <!--fin div vert/bleu-->
-                    <!--debut div bleu-->
-                    <div>
-                        <h5>For doctors</h5>
-                        <p>Save time managing visits and cut no-shows by half</p>
-                        <ul>Choose country
-                            <li>Choose country</li>
-                            <li>Argentina</li>
-                            <li>Brazil</li>
-                            <li>Chile</li>
-                            <li>Colombia</li>
-                            <li>Czech</li>
-                            <li>Germany</li>
-                            <li>Italy</li>
-                            <li>Mexico</li>
-                            <li>Peru</li>
-                            <li>Poland</li>
-                            <li>Portugal</li>
-                            <li>Spain</li>
-                            <li>Turkey</li>
-                        </ul>
-                    </div>
-                    <!--fin div bleu-->
-                    <!--debut div noir-->
-                    <div>
-                        <h5>For clinics</h5>
-                        <p>Deliver an exceptional patient experience in your clinic</p>
-                        <ul>2 to 20 specialists
-                            <li>2 to 20 specialists</li>
-                            <li>Brazil</li>
-                            <li>Czech</li>
-                            <li>Italy</li>
-                            <li>Mexico</li>
-                            <li>Poland</li>
-                            <li>Spain</li>
-                            <li>Turkey</li>
-                        </ul>
-                        <ul>More than 20 specialists                            
-                            <li>More than 20 specialists</li>
-                            <li>Brazil</li>
-                            <li>Italy</li>
-                            <li>Mexico</li>
-                            <li>Poland</li>
-                            <li>Spain</li>
-                        </ul>
-                    </div>
-                    <!--fin div noir-->
+                <div>
+                    <h5>For patients</h5>
+                    <p>Find a doctor, book a visit and solve any health-related doubt</p>
+                    <ul class="choice">Choose country
+                        <li>Choose country</li>
+                        <li>Argentina</li>
+                        <li>Brazil</li>
+                        <li>Chile</li>
+                        <li>Colombia</li>
+                        <li>Czech</li>
+                        <li>Germany</li>
+                        <li>Italy</li>
+                        <li>Mexico</li>
+                        <li>Peru</li>
+                        <li>Poland</li>
+                        <li>Portugal</li>
+                        <li>Spain</li>
+                        <li>Turkey</li>
+                    </ul>
                 </div>
+                <!--fin div vert/bleu-->
+                <!--debut div bleu-->
+                <div>
+                    <h5>For doctors</h5>
+                    <p>Save time managing visits and cut no-shows by half</p>
+                    <ul class="choice">Choose country
+                        <li>Choose country</li>
+                        <li>Argentina</li>
+                        <li>Brazil</li>
+                        <li>Chile</li>
+                        <li>Colombia</li>
+                        <li>Czech</li>
+                        <li>Germany</li>
+                        <li>Italy</li>
+                        <li>Mexico</li>
+                        <li>Peru</li>
+                        <li>Poland</li>
+                        <li>Portugal</li>
+                        <li>Spain</li>
+                        <li>Turkey</li>
+                    </ul>
+                </div>
+                <!--fin div bleu-->
+                <!--debut div noir-->
+                <div>
+                    <h5>For clinics</h5>
+                    <p>Deliver an exceptional patient experience in your clinic</p>
+                    <ul class="choice">2 to 20 specialists
+                        <li>2 to 20 specialists</li>
+                        <li>Brazil</li>
+                        <li>Czech</li>
+                        <li>Italy</li>
+                        <li>Mexico</li>
+                        <li>Poland</li>
+                        <li>Spain</li>
+                        <li>Turkey</li>
+                    </ul>
+                    <ul class="choice">More than 20 specialists                            
+                        <li>More than 20 specialists</li>
+                        <li>Brazil</li>
+                        <li>Italy</li>
+                        <li>Mexico</li>
+                        <li>Poland</li>
+                        <li>Spain</li>
+                    </ul>
+                </div>
+                    <!--fin div noir-->
                 <!--fin div couleur-->
                 <!--debut div paragraphe et logo-->
                 <div>
-                    <div>
-                        <p>We are a global company with local culture</p>
-                    </div>
-                    <div>
-                        <div>
-                            <p><a href="">ZnanyLekarz</a></p>
-                            <p><a href="">Doctoralia</a></p>
-                            <p><a href="">MioDottore</a></p>
-                            <p><a href="">DoktorTakvimi</a></p>
-                        </div>
-                        <div>
-                            <p><a href="">ZnanyLekarz</a></p>
-                            <p><a href="">TUoTEMPo</a></p>
-                            <p><a href="">GiPO</a></p>
-                            <p><a href="">CLINIC CLOUD</a></p>
-                            <p><a href="">JAMEDA</a></p>
-                        </div>
-                    </div>
+                    <p>We are a global company with local culture</p>
+                </div>
+                <div>
+                    <aside>
+                        <p><a href=""><img src="image.png" alt=""> ZnanyLekarz</a></p>
+                        <p><a href="">Doctoralia</a></p>
+                        <p><a href="">MioDottore</a></p>
+                        <p><a href="">DoktorTakvimi</a></p>
+                    </aside>
+                    <aside>
+                        <p><a href="">ZnanyLekarz</a></p>
+                        <p><a href="">TUoTEMPo</a></p>
+                        <p><a href="">GiPO</a></p>
+                        <p><a href="">CLINIC CLOUD</a></p>
+                        <p><a href="">JAMEDA</a></p>
+                    </aside>
                 </div>
                 <!--fin div paragraphe et logo-->
-            </div>
+            </section>
             <!--fin div couleur;paragraphe et logo-->
             <!--debut div paragraphe,png et couleur blanche-->
-            <div>
+            <section class="sect2">
                 <!--debut div paragraphe et png-->
                 <div>
                    <!--debut div paragraphe--> 
@@ -180,7 +175,7 @@
                     </div>
                 </div>
                 <!--fin div couleur blanche-->
-            </div>
+            </section>
             <!--fin div paragraphe,png et couleur blanche-->
             <!--debut article-->
             <article>
@@ -189,7 +184,7 @@
             </article>
             <!--fin article-->
             <!--debut section-->
-            <section>
+            <section class="sect3">
                 <div>
                     <p>Warsaw</p>
                     <button>SEE OPENINGS</button>
