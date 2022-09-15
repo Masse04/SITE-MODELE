@@ -1,17 +1,18 @@
-.container
-nav
+header
 {
     display: flex;
-    border: solid black 3px;
-    width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 75%;
-    margin: auto;
 }
 .navbar
 {
     display: flex;
+    border: solid black 3px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    
 }
 li
 {
@@ -36,14 +37,13 @@ h3
 .para
 {
     display: flex;
-    width: 75%;
+    width: 100%;
     border: solid black 3px;
-    margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 200px;
     align-items: center;
-    text-align: start;
-    padding: 10px 25px;
+    
+
     font-size: large;
 }
 #also
